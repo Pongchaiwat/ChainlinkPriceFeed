@@ -13,3 +13,14 @@ npx hardhat node
 node scripts/sample-script.js
 npx hardhat help
 ```
+hardhat-etherscan:
+
+Installation
+```shell
+npm install --save-dev @nomiclabs/hardhat-etherscan
+```
+And add the following statement to your hardhat.config.js:
+```shell
+require("@nomiclabs/hardhat-etherscan");
+```
+
